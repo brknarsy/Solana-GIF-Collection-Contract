@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+learnsolana = "39r4ESpRyCeHw1FH7B2CSqPUz2DZQZKj7Un3JzqCa9Q9"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ixoth/.config/solana/id.json"
+
+[scripts]
+test = "node tests/learnsolana.js"
